@@ -1,0 +1,184 @@
+
+:root {
+    --primary-color: #2563eb;       
+    --primary-color-light: #3b82f6; 
+    --primary-color-dark: #1d4ed8;  
+    --secondary-color: #10b981;     
+    --background-light: #f4f6f9;    
+    --text-dark: #1f2937;           
+    --card-background: white;
+    --card-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--background-light);
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.main-content {
+    margin-left: 250px;
+    flex-grow: 1;
+    padding: 30px;
+    width: calc(100% - 250px);
+    background-color: var(--background-light);
+}
+
+.sidebar-logo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.sidebar-menu {
+    list-style: none;
+}
+
+.sidebar-menu li {
+    margin-bottom: 15px;
+}
+
+.sidebar-menu a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.sidebar-menu a:hover, .sidebar-menu a.active {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.sidebar-menu i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.feedback-item {
+    background-color: var(--card-background);
+    border: 1px solid var(--background-light);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.3s ease;
+}
+
+.feedback-item:hover {
+    transform: translateY(-5px);
+}
+
+.feedback-status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.status-responded {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.status-resolved {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.feedback-item p {
+    margin-bottom: 10px;
+}
+
+.admin-response {
+    background-color: var(--background-light);
+    border-left: 4px solid var(--primary-color);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.pagination-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.pagination-btn:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.pagination-btn:disabled {
+    background-color: var(--primary-color-light);
+    cursor: not-allowed;
+}
+
+.no-feedback {
+    text-align: center;
+    color: var(--text-dark);
+    padding: 50px 20px;
+    background-color: var(--card-background);
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+}
