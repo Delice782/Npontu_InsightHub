@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "delice.ishimwe";
+$username = " ";
 $dbname = "webtech_fall2024_delice_ishimwe";
 $port = 3341;
 
