@@ -1,7 +1,6 @@
 <?php
 $servername = "localhost";
 $username = "delice.ishimwe";
-$password = "Delice@123";
 $dbname = "webtech_fall2024_delice_ishimwe";
 $port = 3341;
 
