@@ -7,4 +7,4 @@ Public URL to Live Server:
 http://169.239.251.102:3341/~delice.ishimwe/customerinsighthub/
 
 Link to Video Demo: 
-https://youtu.be/KCOniG0s6vg
+https://youtu.be/LfKMXMwZwrQ
