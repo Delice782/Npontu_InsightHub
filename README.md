@@ -67,6 +67,12 @@
   [Npontu InsightHub Live](http://169.239.251.102:3341/~delice.ishimwe/customerinsighthub/)
 
 - **Link to Video Demo**:  
-  [Watch Demo](https://youtu.be/KCOniG0s6vg)
+  [Watch Demo](https://youtu.be/LfKMXMwZwrQ)
 
 ---
+
+## Installation Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/npontu-insighthub.git
