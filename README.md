@@ -1,4 +1,4 @@
-       # Npontu InsightHub
+        # Npontu InsightHub
 
 **Npontu InsightHub** is a web application designed to enhance the customer feedback collection and management process for businesses like Npontu Technologies. It enables seamless interaction between customers and administrators, offering real-time insights into customer satisfaction and product/service performance. The platform helps businesses gather actionable feedback to make data-driven decisions and improve their offerings.
 
