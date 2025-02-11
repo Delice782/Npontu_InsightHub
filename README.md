@@ -36,8 +36,6 @@
 - **Visualization**: Chart.js
 - **Authentication**: PHP's `password_hash()` and session management
 
----
-
 ## Development Approach
 
 1. **Core Infrastructure**
