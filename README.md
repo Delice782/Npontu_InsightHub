@@ -63,6 +63,3 @@
 
 - **Link to Video Demo**:  
   [Watch Demo](https://youtu.be/LfKMXMwZwrQ)
-
----
-
