@@ -56,8 +56,6 @@
 5. **Final Testing**
    - Performed extensive testing for functionality, responsiveness, and performance.
 
----
-
 ## Accessing the Platform
 
 - **Public URL to Live Server**:  
