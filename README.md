@@ -21,8 +21,6 @@
    - Admins can manage users by editing, deleting, approving, or adding new users.
    - Access control is managed through secure login and session handling.
 
----
-
 ## User Roles
 
 - **Customers**: Provide feedback on products and services, share experiences, and track feedback history.
